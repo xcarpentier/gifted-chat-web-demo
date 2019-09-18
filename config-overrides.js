@@ -1,10 +1,4 @@
 module.exports = function override(config, env) {
-  config.resolve = {
-    ...config.resolve,
-    alias: {
-      'react-native$': require.resolve('react-native-web'),
-    },
-  }
   config.module.rules.push({
     test: /\.js$/,
     exclude: /node_modules[/\\](?!react-native-gifted-chat|react-native-lightbox|react-native-parsed-text)/,
