@@ -1,7 +1,6 @@
 <p align="center" >
    <a href="https://reverent-bardeen-47c862.netlify.com/">
-    <img alt="react-native-gifted-chat" src="https://www.dropbox.com/s/0ayhrtfikjfg6xb/gifted-chat-web.gif?raw=1
-" />
+    <img alt="react-native-gifted-chat" src="https://media.giphy.com/media/YMYtBQ9eavLAHYcr2R/giphy.gif" />
  </a>
 
 </p>
