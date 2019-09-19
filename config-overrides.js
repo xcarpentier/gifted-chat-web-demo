@@ -1,7 +1,7 @@
 module.exports = function override(config, env) {
   config.module.rules.push({
     test: /\.js$/,
-    exclude: /node_modules[/\\](?!react-native-gifted-chat|react-native-lightbox|react-native-parsed-text)/,
+    exclude: /node_modules[/\\](?!react-native-gifted-chat|react-native-lightbox|react-native-parsed-text|expo-av)/,
     use: {
       loader: 'babel-loader',
       options: {

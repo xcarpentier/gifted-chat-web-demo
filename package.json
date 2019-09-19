@@ -9,7 +9,8 @@
     "@types/react-dom": "16.9.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-native-gifted-chat": "0.10.0-beta.web.22",
+    "react-native": "^0.59.1",
+    "react-native-gifted-chat": "0.10.0-beta.web.26",
     "react-native-web": "0.11.7",
     "react-scripts": "3.1.1",
     "typescript": "3.6.3"
@@ -35,7 +36,10 @@
     ]
   },
   "devDependencies": {
+    "@babel/preset-env": "7.6.0",
+    "@babel/preset-react": "7.0.0",
     "@types/react-native": "0.60.15",
+    "babel-loader": "8.0.6",
     "react-app-rewired": "2.1.3"
   }
 }

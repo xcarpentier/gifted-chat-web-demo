@@ -16,6 +16,17 @@ const App: React.FC = () => {
       },
       createdAt: new Date(),
     },
+    {
+      _id: 456,
+      text: '',
+      video: 'https://media.giphy.com/media/3o6ZthZjk09Xx4ktZ6/giphy.mp4',
+      user: {
+        _id: 2,
+        name: 'you',
+        avatar: '/me.jpg',
+      },
+      createdAt: new Date(),
+    },
   ])
   const onSend = (newMsg: IMessage[]) => setMessages([...messages, ...newMsg])
   const user: User = { _id: 1, name: 'me' }
