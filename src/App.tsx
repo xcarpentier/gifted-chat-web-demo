@@ -18,8 +18,8 @@ const App: React.FC = () => {
     },
     {
       _id: 456,
-      text: '',
-      video: 'https://media.giphy.com/media/3o6ZthZjk09Xx4ktZ6/giphy.mp4',
+      text:
+        'Find source code here: \n https://github.com/xcarpentier/gifted-chat-web-demo',
       user: {
         _id: 2,
         name: 'you',
